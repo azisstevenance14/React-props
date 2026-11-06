@@ -1,16 +1,27 @@
-# React + Vite
+# 🚀 Belajar Dasar React.js & Bootstrap 5
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositori ini berisi catatan latihan dan eksplorasi mandiri dalam memahami dasar-dasar **React.js** menggunakan perangkat modern **Vite**, dipadukan dengan *framework* **Bootstrap 5** untuk tata letak dan styling yang cepat serta responsif.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack yang Digunakan
+* **Library Utama:** React.js (v18+)
+* **Build Tool:** Vite
+* **Styling Framework:** Bootstrap 5 (diinstal via NPM dan dikonfigurasi secara global)
+* **Text Editor:** Visual Studio Code
+* **Version Control:** Git & GitHub
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📚 Modul & Materi yang Telah Dipelajari
 
-## Expanding the ESLint configuration
+### 1. Mental Model & Lingkungan Kerja (Modul 1 & 2)
+* Memahami perbedaan paradigma manipulasi DOM manual (Vanilla JS) dengan sistem *declarative* berbasis komponen di React.
+* Menguasai sintaks dasar **JSX** (JavaScript XML), aturan *Single Parent Element* menggunakan Fragment (`<>...</>`), serta penyisipan ekspresi JavaScript menggunakan kurung kurawal `{}`.
+* Mengatur struktur folder proyek standar Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Styling & Integrasi Bootstrap (Modul 3 - Bagian A)
+* Membersihkan dan merapikan file CSS bawaan (`index.css` & `App.css`).
+* Mengonfigurasi `index.css` sebagai gerbang utama untuk mengimpor *stylesheet* Bootstrap:
+  ```css
+  @import 'bootstrap/dist/css/bootstrap.min.css';
